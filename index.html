@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <!-- navbars -->
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <div class="navbar-nav mt-2">
+                    <a class="nav-item nav-link active" href="#">Home</a>
+                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">Training</a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- the jumbotron -->
+    <div class="jumbotron bg-info jumbotron-fluid">
+      <div class="container text-center text-white">
+          <h2 class="display-1">The Sample Dojo</h2>
+          <span class="lead">Here is the little overview</span>
+      </div>
+    </div>
+    <!-- the card -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+          <img src="Pictures/1.jpg" alt="" class="card-img-top img-fluid">
+          <div class="card-block text-center">
+            <h2 class="display-5">Goa</h2>
+            <p>The great Indian beaches are present here in the city of the goa.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+        <img src="Pictures/2.jpg" alt="" class="card-img-top img-fluid">
+        <div class="card-block text-center">
+          <h2 class="display-5">Mumbai</h2>
+          <p>The great Indian Taj Hotel is present here in the city of the Mumbai.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+      <img src="Pictures/3.jpg" alt="" class="card-img-top img-fluid">
+      <div class="card-block text-center">
+        <h2 class="display-5">Bangalore</h2>
+        <p>The great Indian IT companies are present here in the city of the Bangalore.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3">
+    <div class="card">
+    <img src="Pictures/4.jpg" alt="" class="card-img-top img-fluid">
+    <div class="card-block text-center">
+      <h2 class="display-5">Hyderabad</h2>
+      <p>The great Indian Biryani is present here in the city of the Hyderabad.</p>
+    </div>
+  </div>
+</div>
+     </div>
+    </div>
+    <!-- navs -->
+    <div class="container">
+      <h2 class="display-3 text-center mt-10">Details of City</h2>
+      <nav class="nav nav-pills justify-content-center flex-column flex-md-row" style="margin:10px">
+        <a class="nav-link active" href="#Goa" data-toggle='tab'>Goa</a>
+        <a class="nav-link" href="#Mumbai" data-toggle='tab'>Mumbai</a>
+        <a class="nav-link" href="#Bangalore" data-toggle='tab'>Bangalore</a>
+        <a class="nav-link" href="#Hyderabad" data-toggle='tab'>Hyderabad</a>
+      </nav>
+    </div>
+    <div class="tab-content" style="max-width:1000px;margin:0 auto;">
+      <div class="tab-pane active" id="Goa">
+        <h2>Goa</h2>
+        <p>The great <a href="#" data-toggle="tooltip" title="for more click on this">Indian beaches</a> are present here in the city of the goa.</p>
+      </div>
+      <div class="tab-pane" id="Mumbai">
+        <h2>Mumbai</h2>
+        <p>The great Indian Taj Hotel is present here in the city of the Mumbai.</p>
+      </div>
+      <div class="tab-pane" id="Bangalore">
+        <h2>Bangalore</h2>
+        <p>The great Indian IT companies are present here in the city of the Bangalore.</p>
+      </div>
+      <div class="tab-pane" id="Hyderabad">
+        <h2>Hyderabad</h2>
+        <p>The great Indian Biryani are present here in the city of the Hyderabad.</p>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+      $(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  </body>
+</html>
