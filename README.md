@@ -1,5 +1,8 @@
 # Bootstrap
 > Used for variations in screen sizes.
+### Requirements
+> * Install Bootstrap 
+> * (for Easy start) Copy starter template from [link](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 
 ## Worked on ...
 > * Nav-bar
